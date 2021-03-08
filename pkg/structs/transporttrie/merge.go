@@ -1,6 +1,6 @@
 package transporttrie
 
-import "github.com/pyroscope-io/pyroscope/pkg/structs/merge"
+import "github.com/appleboy/pyroscope/pkg/structs/merge"
 
 func (dstTrie *Trie) Merge(srcTrieI merge.Merger) {
 	srcTrie := srcTrieI.(*Trie)

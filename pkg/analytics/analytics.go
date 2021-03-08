@@ -9,10 +9,10 @@ import (
 	"time"
 
 	"github.com/google/uuid"
-	"github.com/pyroscope-io/pyroscope/pkg/build"
-	"github.com/pyroscope-io/pyroscope/pkg/config"
-	"github.com/pyroscope-io/pyroscope/pkg/server"
-	"github.com/pyroscope-io/pyroscope/pkg/storage"
+	"github.com/appleboy/pyroscope/pkg/build"
+	"github.com/appleboy/pyroscope/pkg/config"
+	"github.com/appleboy/pyroscope/pkg/server"
+	"github.com/appleboy/pyroscope/pkg/storage"
 	"github.com/sirupsen/logrus"
 )
 

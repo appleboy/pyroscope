@@ -3,7 +3,7 @@ package main
 import (
 	"log"
 
-	"github.com/pyroscope-io/pyroscope/pkg/agent/profiler"
+	"github.com/appleboy/pyroscope/pkg/agent/profiler"
 )
 
 func work(n int) {

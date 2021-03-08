@@ -6,9 +6,9 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/pyroscope-io/pyroscope/pkg/storage"
-	"github.com/pyroscope-io/pyroscope/pkg/storage/tree"
-	"github.com/pyroscope-io/pyroscope/pkg/util/attime"
+	"github.com/appleboy/pyroscope/pkg/storage"
+	"github.com/appleboy/pyroscope/pkg/storage/tree"
+	"github.com/appleboy/pyroscope/pkg/util/attime"
 )
 
 type samplesEntry struct {

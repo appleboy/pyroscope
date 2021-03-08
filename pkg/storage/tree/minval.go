@@ -1,6 +1,6 @@
 package tree
 
-import "github.com/pyroscope-io/pyroscope/pkg/structs/cappedarr"
+import "github.com/appleboy/pyroscope/pkg/structs/cappedarr"
 
 func (t *Tree) minValue(maxNodes int) uint64 {
 	c := cappedarr.New(maxNodes)

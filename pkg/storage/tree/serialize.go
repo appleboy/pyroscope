@@ -6,8 +6,8 @@ import (
 	"encoding/base64"
 	"io"
 
-	"github.com/pyroscope-io/pyroscope/pkg/storage/dict"
-	"github.com/pyroscope-io/pyroscope/pkg/util/varint"
+	"github.com/appleboy/pyroscope/pkg/storage/dict"
+	"github.com/appleboy/pyroscope/pkg/util/varint"
 )
 
 // serialization format version. it's not very useful right now, but it will be in the future

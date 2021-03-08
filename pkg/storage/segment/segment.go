@@ -135,7 +135,7 @@ func (sn *streeNode) get(st, et time.Time, cb func(sn *streeNode, d int, t time.
 	} else if rel != outside { // inside or overlap
 		if sn.present && len(sn.children) == 0 {
 			// TODO: I did not test this logic as extensively as I would love to.
-			//   See https://github.com/pyroscope-io/pyroscope/issues/28 for more context and ideas on what to do
+			//   See https://github.com/appleboy/pyroscope/issues/28 for more context and ideas on what to do
 			cb(sn, sn.depth, sn.time, sn.overlapRead(st, et))
 		} else {
 			// if current node doesn't have a tree present or has children, defer to children

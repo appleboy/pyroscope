@@ -4,7 +4,7 @@ import (
 	"runtime"
 	"strings"
 
-	"github.com/pyroscope-io/pyroscope/pkg/agent/spy"
+	"github.com/appleboy/pyroscope/pkg/agent/spy"
 )
 
 // TODO: make this configurable
@@ -14,7 +14,7 @@ var bufferLength = 1024 * 64
 var excludes = []string{
 	"gopark",
 	"GoroutineProfile",
-	"gospy.(*GoSpy).Snapshot", // see https://github.com/pyroscope-io/pyroscope/issues/50 for context
+	"gospy.(*GoSpy).Snapshot", // see https://github.com/appleboy/pyroscope/issues/50 for context
 	"sigNoteSleep",
 	"notetsleepg",
 }

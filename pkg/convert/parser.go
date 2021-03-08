@@ -6,7 +6,7 @@ import (
 	"io"
 	"strconv"
 
-	"github.com/pyroscope-io/pyroscope/pkg/structs/transporttrie"
+	"github.com/appleboy/pyroscope/pkg/structs/transporttrie"
 )
 
 // format is a Serialized trie (see transporttrie.Serialize implementation)

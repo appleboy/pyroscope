@@ -5,7 +5,7 @@ import (
 	"encoding/json"
 	"io"
 
-	"github.com/pyroscope-io/pyroscope/pkg/util/varint"
+	"github.com/appleboy/pyroscope/pkg/util/varint"
 )
 
 func WriteMetadata(w io.Writer, metadata map[string]interface{}) error {

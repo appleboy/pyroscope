@@ -12,8 +12,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/pyroscope-io/pyroscope/pkg/agent"
-	"github.com/pyroscope-io/pyroscope/pkg/structs/transporttrie"
+	"github.com/appleboy/pyroscope/pkg/agent"
+	"github.com/appleboy/pyroscope/pkg/structs/transporttrie"
 )
 
 var ErrCloudTokenRequired = errors.New("Please provide an authentication token. You can find it here: https://pyroscope.io/cloud")

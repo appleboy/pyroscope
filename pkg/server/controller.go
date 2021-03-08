@@ -16,10 +16,10 @@ import (
 
 	"github.com/clarkduvall/hyperloglog"
 	"github.com/markbates/pkger"
-	"github.com/pyroscope-io/pyroscope/pkg/build"
-	"github.com/pyroscope-io/pyroscope/pkg/config"
-	"github.com/pyroscope-io/pyroscope/pkg/storage"
-	"github.com/pyroscope-io/pyroscope/pkg/util/atexit"
+	"github.com/appleboy/pyroscope/pkg/build"
+	"github.com/appleboy/pyroscope/pkg/config"
+	"github.com/appleboy/pyroscope/pkg/storage"
+	"github.com/appleboy/pyroscope/pkg/util/atexit"
 	"github.com/sirupsen/logrus"
 )
 

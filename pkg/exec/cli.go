@@ -14,12 +14,12 @@ import (
 
 	"github.com/fatih/color"
 	"github.com/mitchellh/go-ps"
-	"github.com/pyroscope-io/pyroscope/pkg/agent"
-	"github.com/pyroscope-io/pyroscope/pkg/agent/spy"
-	"github.com/pyroscope-io/pyroscope/pkg/agent/upstream/remote"
-	"github.com/pyroscope-io/pyroscope/pkg/config"
-	"github.com/pyroscope-io/pyroscope/pkg/util/atexit"
-	"github.com/pyroscope-io/pyroscope/pkg/util/names"
+	"github.com/appleboy/pyroscope/pkg/agent"
+	"github.com/appleboy/pyroscope/pkg/agent/spy"
+	"github.com/appleboy/pyroscope/pkg/agent/upstream/remote"
+	"github.com/appleboy/pyroscope/pkg/config"
+	"github.com/appleboy/pyroscope/pkg/util/atexit"
+	"github.com/appleboy/pyroscope/pkg/util/names"
 	"github.com/sirupsen/logrus"
 )
 
@@ -47,7 +47,7 @@ func Cli(cfg *config.Config, args []string) error {
 					color.YellowString("-spy-name"),
 					color.YellowString(suggestedCommand),
 					strings.Join(supportedSpies, ","),
-					color.GreenString("https://github.com/pyroscope-io/pyroscope/issues"),
+					color.GreenString("https://github.com/appleboy/pyroscope/issues"),
 				)
 			}
 		} else {
@@ -58,7 +58,7 @@ func Cli(cfg *config.Config, args []string) error {
 				color.YellowString("-spy-name"),
 				color.YellowString(suggestedCommand),
 				strings.Join(supportedSpies, ","),
-				color.GreenString("https://github.com/pyroscope-io/pyroscope/issues"),
+				color.GreenString("https://github.com/appleboy/pyroscope/issues"),
 			)
 		}
 	}

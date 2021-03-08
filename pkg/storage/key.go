@@ -7,7 +7,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/pyroscope-io/pyroscope/pkg/structs/sortedmap"
+	"github.com/appleboy/pyroscope/pkg/structs/sortedmap"
 	"github.com/spaolacci/murmur3"
 )
 

@@ -8,7 +8,7 @@ package ebpfspy
 import (
 	"sync"
 
-	"github.com/pyroscope-io/pyroscope/pkg/agent/spy"
+	"github.com/appleboy/pyroscope/pkg/agent/spy"
 )
 
 type EbpfSpy struct {

@@ -13,7 +13,7 @@ import (
 	"github.com/davecgh/go-spew/spew"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
-	"github.com/pyroscope-io/pyroscope/pkg/testing"
+	"github.com/appleboy/pyroscope/pkg/testing"
 )
 
 func doGet(s *Segment, st, et time.Time) []time.Time {

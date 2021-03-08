@@ -5,8 +5,8 @@ package profiler
 import (
 	"time"
 
-	"github.com/pyroscope-io/pyroscope/pkg/agent"
-	"github.com/pyroscope-io/pyroscope/pkg/agent/upstream/remote"
+	"github.com/appleboy/pyroscope/pkg/agent"
+	"github.com/appleboy/pyroscope/pkg/agent/upstream/remote"
 )
 
 type Config struct {

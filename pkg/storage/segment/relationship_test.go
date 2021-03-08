@@ -3,7 +3,7 @@ package segment
 import (
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
-	"github.com/pyroscope-io/pyroscope/pkg/testing"
+	"github.com/appleboy/pyroscope/pkg/testing"
 )
 
 //  relationship                               overlap read             overlap write

@@ -4,8 +4,8 @@ import (
 	"flag"
 	"fmt"
 
-	"github.com/pyroscope-io/pyroscope/pkg/cli"
-	"github.com/pyroscope-io/pyroscope/pkg/config"
+	"github.com/appleboy/pyroscope/pkg/cli"
+	"github.com/appleboy/pyroscope/pkg/config"
 	"github.com/sirupsen/logrus"
 )
 

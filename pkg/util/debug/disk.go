@@ -4,7 +4,7 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/pyroscope-io/pyroscope/pkg/util/bytesize"
+	"github.com/appleboy/pyroscope/pkg/util/bytesize"
 	"github.com/sirupsen/logrus"
 )
 

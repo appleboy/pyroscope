@@ -12,7 +12,7 @@ import (
 	"time"
 	"unsafe"
 
-	"github.com/pyroscope-io/pyroscope/pkg/agent/spy"
+	"github.com/appleboy/pyroscope/pkg/agent/spy"
 )
 
 // TODO: make this configurable

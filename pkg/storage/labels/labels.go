@@ -4,7 +4,7 @@ import (
 	"strings"
 
 	"github.com/dgraph-io/badger/v2"
-	"github.com/pyroscope-io/pyroscope/pkg/config"
+	"github.com/appleboy/pyroscope/pkg/config"
 )
 
 type Labels struct {

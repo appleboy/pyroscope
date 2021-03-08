@@ -12,20 +12,20 @@ import (
 	"strings"
 	"time"
 
-	"github.com/pyroscope-io/pyroscope/pkg/agent"
-	"github.com/pyroscope-io/pyroscope/pkg/agent/spy"
-	"github.com/pyroscope-io/pyroscope/pkg/agent/upstream/direct"
-	"github.com/pyroscope-io/pyroscope/pkg/analytics"
-	"github.com/pyroscope-io/pyroscope/pkg/build"
-	"github.com/pyroscope-io/pyroscope/pkg/config"
-	"github.com/pyroscope-io/pyroscope/pkg/convert"
-	"github.com/pyroscope-io/pyroscope/pkg/dbmanager"
-	"github.com/pyroscope-io/pyroscope/pkg/exec"
-	"github.com/pyroscope-io/pyroscope/pkg/server"
-	"github.com/pyroscope-io/pyroscope/pkg/storage"
-	"github.com/pyroscope-io/pyroscope/pkg/util/atexit"
-	"github.com/pyroscope-io/pyroscope/pkg/util/debug"
-	"github.com/pyroscope-io/pyroscope/pkg/util/strarr"
+	"github.com/appleboy/pyroscope/pkg/agent"
+	"github.com/appleboy/pyroscope/pkg/agent/spy"
+	"github.com/appleboy/pyroscope/pkg/agent/upstream/direct"
+	"github.com/appleboy/pyroscope/pkg/analytics"
+	"github.com/appleboy/pyroscope/pkg/build"
+	"github.com/appleboy/pyroscope/pkg/config"
+	"github.com/appleboy/pyroscope/pkg/convert"
+	"github.com/appleboy/pyroscope/pkg/dbmanager"
+	"github.com/appleboy/pyroscope/pkg/exec"
+	"github.com/appleboy/pyroscope/pkg/server"
+	"github.com/appleboy/pyroscope/pkg/storage"
+	"github.com/appleboy/pyroscope/pkg/util/atexit"
+	"github.com/appleboy/pyroscope/pkg/util/debug"
+	"github.com/appleboy/pyroscope/pkg/util/strarr"
 	"github.com/sirupsen/logrus"
 
 	"github.com/iancoleman/strcase"
@@ -363,7 +363,7 @@ func startServer(cfg *config.Config) {
 		atexit.Register(func() { analyticsService.Stop() })
 	}
 	// if you ever change this line, make sure to update this homebrew test:
-	//   https://github.com/pyroscope-io/homebrew-brew/blob/main/Formula/pyroscope.rb#L94
+	//   https://github.com/appleboy/homebrew-brew/blob/main/Formula/pyroscope.rb#L94
 	logrus.Info("starting HTTP server")
 	c.Start()
 }

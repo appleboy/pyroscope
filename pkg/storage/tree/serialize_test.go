@@ -5,7 +5,7 @@ import (
 
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
-	"github.com/pyroscope-io/pyroscope/pkg/storage/dict"
+	"github.com/appleboy/pyroscope/pkg/storage/dict"
 	"github.com/sirupsen/logrus"
 )
 

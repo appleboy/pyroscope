@@ -6,7 +6,7 @@ import (
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 
-	testing2 "github.com/pyroscope-io/pyroscope/pkg/testing"
+	testing2 "github.com/appleboy/pyroscope/pkg/testing"
 )
 
 func TestStorage(t *testing.T) {

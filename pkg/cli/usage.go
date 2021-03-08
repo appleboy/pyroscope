@@ -8,7 +8,7 @@ import (
 
 	"github.com/fatih/color"
 	"github.com/peterbourgon/ff/v3/ffcli"
-	"github.com/pyroscope-io/pyroscope/pkg/util/strarr"
+	"github.com/appleboy/pyroscope/pkg/util/strarr"
 )
 
 var headerClr *color.Color

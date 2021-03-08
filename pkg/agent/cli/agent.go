@@ -3,12 +3,12 @@ package cli
 import (
 	"os"
 
-	"github.com/pyroscope-io/pyroscope/pkg/agent"
-	"github.com/pyroscope-io/pyroscope/pkg/agent/csock"
-	"github.com/pyroscope-io/pyroscope/pkg/agent/upstream"
-	"github.com/pyroscope-io/pyroscope/pkg/agent/upstream/remote"
-	"github.com/pyroscope-io/pyroscope/pkg/config"
-	"github.com/pyroscope-io/pyroscope/pkg/util/id"
+	"github.com/appleboy/pyroscope/pkg/agent"
+	"github.com/appleboy/pyroscope/pkg/agent/csock"
+	"github.com/appleboy/pyroscope/pkg/agent/upstream"
+	"github.com/appleboy/pyroscope/pkg/agent/upstream/remote"
+	"github.com/appleboy/pyroscope/pkg/config"
+	"github.com/appleboy/pyroscope/pkg/util/id"
 	"github.com/sirupsen/logrus"
 )
 

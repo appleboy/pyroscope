@@ -5,7 +5,7 @@ package exec
 import (
 	"errors"
 
-	"github.com/pyroscope-io/pyroscope/pkg/util/caps"
+	"github.com/appleboy/pyroscope/pkg/util/caps"
 	"github.com/sirupsen/logrus"
 )
 
@@ -28,12 +28,12 @@ const CAP_SYS_PTRACE = 19
 func hasSysPtraceCap() bool {
 	c, err := caps.Get()
 	if err != nil {
-		logrus.Warn("Could not read capabilities. Please submit an issue at https://github.com/pyroscope-io/pyroscope/issues")
+		logrus.Warn("Could not read capabilities. Please submit an issue at https://github.com/appleboy/pyroscope/issues")
 		return true // I don't know of cases when this would happen, but if it does I'd rather give this program a chance
 	}
 
 	if c.Inheritable() == 0 {
-		logrus.Warn("Could not read capabilities. Please submit an issue at https://github.com/pyroscope-io/pyroscope/issues")
+		logrus.Warn("Could not read capabilities. Please submit an issue at https://github.com/appleboy/pyroscope/issues")
 		return true // I don't know of cases when this would happen, but if it does I'd rather give this program a chance
 	}
 

@@ -5,7 +5,7 @@ import (
 	"bytes"
 	"io"
 
-	"github.com/pyroscope-io/pyroscope/pkg/util/varint"
+	"github.com/appleboy/pyroscope/pkg/util/varint"
 )
 
 // serialization format version. it's not very useful right now, but it will be in the future

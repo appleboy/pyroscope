@@ -7,7 +7,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/pyroscope-io/pyroscope/pkg/agent/spy"
+	"github.com/appleboy/pyroscope/pkg/agent/spy"
 )
 
 var (
